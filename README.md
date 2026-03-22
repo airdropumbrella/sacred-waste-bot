@@ -53,7 +53,7 @@ sacred-waste-bot/
 ### 1. Clone repository
 
 ```bash
-git clone https://github.com/USERNAME/sacred-waste-bot.git
+git clone https://github.com/airdropumbrella/sacred-waste-bot.git
 cd sacred-waste-bot
 ```
 
