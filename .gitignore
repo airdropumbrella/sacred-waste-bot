@@ -1,0 +1,14 @@
+# !! SECURITY - NEVER commit these !!
+.env
+*.key
+*.pem
+
+# Runtime data (contains wallet addresses & tokens)
+logs/
+
+# Dependencies
+node_modules/
+
+# OS
+.DS_Store
+Thumbs.db

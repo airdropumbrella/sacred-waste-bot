@@ -1,0 +1,21 @@
+{
+  "name": "sacred-waste-bot",
+  "version": "4.0.0",
+  "description": "Multi-wallet + proxy automation bot for Sacred Waste",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "schedule": "node src/scheduler.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1",
+    "https-proxy-agent": "^7.0.4",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "socks-proxy-agent": "^8.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
