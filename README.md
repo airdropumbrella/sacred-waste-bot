@@ -1,6 +1,6 @@
 # Sacred Waste Bot 🔥
 
-Automation bot for [Sacred Waste]([https://app.sacredwaste.io](https://app.sacredwaste.io?ref=G6586RZG)) — runs daily burn & vote tasks across multiple wallets.
+Automation bot for [Sacred Waste](https://app.sacredwaste.io](https://app.sacredwaste.io?ref=G6586RZG) — runs daily burn & vote tasks across multiple wallets.
 
 **Features:**
 - 🔥 Burn REKT tokens via direct contract call (random 1–7 per tx)
