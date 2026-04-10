@@ -1,10 +1,3 @@
-/**
- * Configuration loader - Multi-wallet + Proxy support
- *
- * ✅ Contracts verified from:
- * https://basescan.org/tx/0x6c83e74ee52c9ded3cfe81db2053fc91b7cc0cdfb1e12ce13db53481ea0a8523
- */
-
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'url';
 import { dirname, resolve } from 'path';
