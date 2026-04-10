@@ -1,14 +1,3 @@
-/**
- * BurnBot - Direct contract call dengan dual-source daily state check
- *
- * Burn amount: random 1–BURN_AMOUNT_MAX per tx (default max 7)
- *
- * Urutan cek burn hari ini:
- *   1. DailyCache (file lokal) - paling cepat & reliable
- *   2. BaseScan API v2/v1     - fallback jika cache kosong/baru
- *   3. getLogs (9500 blocks)  - fallback terakhir
- */
-
 import { ethers } from 'ethers';
 import { config } from '../config/config.js';
 import { logger } from '../utils/logger.js';
