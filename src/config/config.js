@@ -61,7 +61,7 @@ export const config = {
   APP_URL: optionalEnv('APP_URL', 'https://app.sacredwaste.io'),
 
   ENABLE_BURN:    optionalEnv('ENABLE_BURN', 'true') === 'true',
-  BURN_COUNT:     parseInt(optionalEnv('BURN_COUNT', '10')),
+  BURN_COUNT:     parseInt(optionalEnv('BURN_COUNT', '20')),
   BURN_AMOUNT_MAX: parseInt(optionalEnv('BURN_AMOUNT_MAX', '7')),  // max token per burn tx (random 1–max)
   BURN_DELAY_MIN: parseInt(optionalEnv('BURN_DELAY_MIN', '30000')),
   BURN_DELAY_MAX: parseInt(optionalEnv('BURN_DELAY_MAX', '120000')),
